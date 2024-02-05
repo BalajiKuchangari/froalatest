@@ -1,5 +1,5 @@
 <div
-  [froalaEditor]="froalaOptions"
+  [froalaEditor]="options"
   [(froalaModel)]="value"
-  (froalaModelChange)="onModelChange($event)"
+  (froalaInit)="initializeEditor($event)"
 ></div>
